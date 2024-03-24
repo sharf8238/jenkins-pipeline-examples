@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sharf8238_jenkins_pipeline_examples_1711269997924-push-trigger-input-set
+  identifier: Build_sharf8238_jenkins_pipeline_examples_1711269997924pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sharf8238_jenkins_pipeline_examples_1711269997924
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
